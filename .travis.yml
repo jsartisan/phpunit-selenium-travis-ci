@@ -4,3 +4,5 @@ php:
 
 before_script: ./.ci/before_script.sh
 script: "vendor/bin/phpunit tests"
+
+sudo: required
