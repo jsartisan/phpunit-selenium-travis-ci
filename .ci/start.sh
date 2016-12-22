@@ -11,3 +11,4 @@ if [ ! $? -eq 0 ]; then
     echo "Selenium Server not started"
 else
     echo "Finished setup"
+fi
